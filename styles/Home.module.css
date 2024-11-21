@@ -1,0 +1,197 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #c1f4e6;
+    font-family: 'Montserrat', sans-serif; 
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 120px; 
+    height: auto; 
+  }
+  
+  .logo span {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .navLinks a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+  }
+  
+  .authButtons button {
+    font-family: 'Montserrat'; 
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .authButtons .signIn {
+    background: transparent;
+    color: #555;
+  }
+  
+  .authButtons .register {
+    background: #333;
+    color: white;
+  }
+  
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/background.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .title {
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    font-weight: 100;
+    color: #1b1b1b;
+    margin-bottom: 20px;
+  }
+  
+  .promptCard {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    color: #437e9e;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    border: 2px solid #ccc;
+  }
+  
+  .promptInput {
+    width: 75%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    outline: none;
+    background-color: #f8f8f8;
+  }
+  
+  .generateBtn {
+    padding: 12px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .generateBtn:hover {
+    background-color: #555;
+  }
+  
+  .generateBtn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .errorMessage {
+    color: red;
+    font-size: 1rem;
+  }
+  
+  .successMessage {
+    margin-top: 20px;
+    color: #28a745;
+    font-weight: bold;
+  }
+  
+  .exampleText {
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  .resultCard {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .redirectBtn {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .redirectBtn:hover {
+    background-color: #555;
+  }
+  
+  /* Result Page Chat Styles */
+  .chatContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .chatBox {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  .message strong {
+    color: #333;
+  }
+  
+  .backBtn {
+    padding: 12px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .backBtn:hover {
+    background-color: #555;
+  }
+  
