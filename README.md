@@ -1,59 +1,56 @@
-AI Website Generator
 
-This project is an AI-powered website generator that builds complete websites from simple natural language prompts. It uses SambaNova's AI Agent to generate HTML, CSS, and JavaScript code dynamically, allowing users to turn their ideas into real, working webpages instantly.
+# AI Website Generator
 
-Features
+An AI-powered website generator that creates fully functional websites from natural language prompts. This project uses SambaNova's AI Agent to generate HTML, CSS, and JavaScript dynamically, enabling users to convert ideas into working webpages instantly.
 
-Generate websites based on text prompts
+---
 
-Live preview of generated webpage
+## Features
 
-Clean and responsive interface
+* Generate websites based on text prompts
+* Live preview of the generated webpage
+* Clean and responsive interface
+* Integration with SambaNova AI Agent API
+* Code editor–style output panel
+* Optional download/export functionality
 
-Integration with SambaNova AI Agent API
+---
 
-Code editor-style output panel
+## Tech Stack
 
-Optional download/export functionality
+* HTML
+* CSS
+* JavaScript
+* SambaNova Cloud (AI Agent API)
 
-Tech Stack
+---
 
-HTML
+## How It Works
 
-CSS
+1. User enters a prompt describing the desired website
+2. Frontend sends the prompt to SambaNova’s AI Agent
+3. The model generates HTML, CSS, and JavaScript code
+4. The generated code is rendered inside an iframe
+5. Users can preview, edit, or download the output
 
-JavaScript
+---
 
-SambaNova Cloud (AI Agent API)
+## Use Cases
 
-How It Works
+* Rapid website prototyping
+* Design-to-code conversion
+* Learning HTML/CSS/JavaScript
+* Building landing pages quickly
 
-The user enters a prompt describing the desired website.
+---
 
-The frontend sends this prompt to SambaNova's AI Agent.
+## Future Enhancements
 
-The model returns generated HTML, CSS, and JavaScript code.
+* Support for multiple page templates
+* Dark/Light mode
+* Full project ZIP export
+* Integration with additional AI models
 
-The output is rendered live in an iframe.
+---
 
-Users can view, edit, or download the generated code.
 
-Use Cases
-
-Rapid website prototyping
-
-Design-to-code conversion
-
-Learning HTML/CSS/JS
-
-Building landing pages quickly
-
-Future Enhancements
-
-Support for multiple page templates
-
-Dark/light mode
-
-Full project ZIP compression
-
-Integration with additional AI models
